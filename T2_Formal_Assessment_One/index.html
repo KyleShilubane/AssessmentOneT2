@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="container">
+          <span class="logo left">ClosedDoor University</span>
+          <ul class="nav left">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Prospectus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Academic Calendar</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">UX Design</a>
+                <a class="dropdown-item" href="#">Development</a>
+                <a class="dropdown-item" href="#">Product Design</a>
+                <a class="dropdown-item" href="#">Creative Computing</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline">
+            <input class="form-control search-input" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-transparent search-button" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+      <content>
+        <div class="container">
+            <div class="row heading">
+                <div class="col-12">
+                    <h1>Your Future, From the Past!</h1>
+                    <p>Marvel at this generic!</p><hr width="100%" height="10%">
+                    <p><b>Take a Look at the some subject offerings by clicking the buttons below!</b></p>
+                </div>
+            </div>
+            <div class="row subject-btn">
+                <div class="col-4">
+                    <button class="header-btn1">UX Design</button>
+                </div>
+                <div class="col-4">
+                  <button class="header-btn2">Development</button>
+                </div>
+                <div class="col-4">
+                  <button class="header-btn3">Product Design</button>
+                </div>
+            </div>
+            <div class="row subjects-holder">
+              <div class="col-4">
+                <div class="card-holder">
+                  <div class="card-img">
+                    <img src="images/subjects-01.jpg" class="card-img">
+                  </div>
+                  <div class="card-text">
+                    <h3>UX Design</h3>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content</p>
+                  </div>
+                  <div class="card-btn">
+                    <button class="card-btn1">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card-holder">
+                  <div class="card-img">
+                    <img src="images/subjects-03.jpg" class="card-img">
+                  </div>
+                <div class="card-text">
+                  <h3>Development</h3>
+                  <p>Some quick example text to build on the card title and make up the bulk of the card's content</p>
+                </div>
+                <div class="card-btn">
+                  <button class="card-btn2">Read More</button>
+                </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card-holder">
+                  <div class="card-img">
+                    <img src="images/subjects-02.jpg" class="card-img">
+                  </div>
+                  <div class="card-text">
+                    <h3>Product Design</h3>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content</p>
+                  </div>
+                  <div class="card-btn">
+                    <button class="card-btn3">Read More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="row">
+            <div class="col-6 sign-up">
+              <h2>Sign Up</h2>
+              <p>If you would like to register for one of our courses, use the form below</p>
+              <form>
+                <input type="text" id="name" placeholder="Name & Surname" name="name"><br><br>
+            
+                <input type="email" id="email" placeholder="Enter email" name="email"><br><br>
+
+                <input type="text" id="contact" placeholder="Contact Number" name="contact"><br><br>
+
+                <select id="subject" placeholder="Select A Subject" name="subject">
+                  <option value="UX Design">UX Design</option>
+                  <option value="Development">Development</option>
+                  <option value="Product Design">Product Design</option>
+                </select><br><br>
+
+                <input type="text" id="password" place="Password" name="Password"><br><br>
+
+                <input type="checkbox" id="myCheckbox" name="newsletter"> Send Me Spam Newsletters<br><br>
+            
+                <button type="button" class="btn-primary" onclick="showAlert()">Register Account</button>
+              </form>
+            </div>
+            <div class="col-6 gallery">
+              <h2>Our Gallery</h2>
+              <p>Take a look at some of our cool shxt!</p>
+              <div class="gallery-img">
+                <img src="images/two.jpg" class="gallery-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </content>
+      <footer>
+        <h1 class="footer-text">Footer</h1>
+      </footer>
+</body>
+</html>
